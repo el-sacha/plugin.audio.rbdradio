@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.rbdradio" name="RBD Radio" version="1.0.1" provider-name="El-Sacha">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Listen to podcasts from the RBD Radio  network.
+    </summary>
+    <description lang="en">Radio vision and purpose is to nurture the intellectual and cultural life of this country, and to be a vital element of the contemporary Argentine conversation. Radio vision and purpose is to nurture the intellectual and cultural life of this country, and to be a vital element of the contemporary Argentine conversation.
+    </description>
+    <license>GNU GENERAL PUBLIC LICENSE v2</license>
+    <forum>http://foro.rbdradio.com</forum>
+    <email>gustavosachetti@gmail.com</email>
+    <source>https://github.com/el-sacha/plugin.audio.rbdradio.git</source>
+    <website></website>
+  </extension>
+</addon>
